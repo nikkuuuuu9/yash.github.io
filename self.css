@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Code+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(200, 187, 187);
+    /* width: 200px; */
+    height: 100vh;
+    font-family: 'Roboto Slab', serif;
+    transition: transform 0.5s ease-in-out;
+
+
+}
+
+.sidebar nav {
+    padding: 50px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(224, 205, 217); */
+    height: 40vh;
+    width: 60vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devPic {
+
+    height: 40vh;
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+.hello {
+    font-size: 2.5em;
+
+}
+
+.name {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.about {
+    font-size: larger;
+
+}
+
+.Buttons {
+    margin-top: 2.5em;
+}
+
+.Buttons button {
+    padding: 7px;
+
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.Buttons button:hover {
+
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+.moreabout {
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-top: 10px;
+    margin-left: 140px;
+}
